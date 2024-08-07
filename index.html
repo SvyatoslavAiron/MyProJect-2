@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="description" content="On this site I will study CSS, HTML and Java Script">
+   <meta name="keywords" content="Java-Script, JS, Java Script, HTML, CSS, SCSS, SASS, Home">
+   <title>MyProjectS</title>
+   <link rel="icon" href="assets/images/icon-shopping-basket.svg">
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   <script src="assets/js/project.min.js"></script></head>
+
+<body>
+   <div class="wrapper">
+   	<div class="header">
+   		<div class="container">
+   			<div class="header__logo anim">
+   				<a href="#"><svg>
+   						<use xlink:href="./assets/images/sprite.svg#logo"></use>
+   					</svg></a>
+   			</div>
+   			<nav class="header__menu menu">
+   				<button class="menu__btn">
+   					<span></span>
+   					<span></span>
+   					<span></span>
+   					<span></span>
+   				</button>
+   				<ul class="menu__list">
+   					<li class="menu__item anim"><a href="#collections" class="menu__link">Black</a></li>
+   					<li class="menu__item anim"><a href="#collections" class="menu__link">Green</a></li>
+   					<li class="menu__item anim"><a href="#collections" class="menu__link">White</a></li>
+   					<li class="menu__item anim"><a href="#collections" class="menu__link">Oolong</a></li>
+   					<li class="menu__item anim"><a href="#collections" class="menu__link">Pu-erh</a></li>
+   				</ul>
+   				<ul class="menu__list-mobile moving-mobile-menu">
+   					<li class="moving-mobile-menu__close">
+   						<button class="moving-mobile-menu__close-btn">
+   							<svg>
+   								<use xlink:href="./assets/images/sprite.svg#icon-close"></use>
+   							</svg>
+   						</button>
+   					</li>
+   					<li class="moving-mobile-menu__nav">
+   						<ul class="nav-list">
+   							<li class="nav-list__item"><a href="#" class="nav-list__link">Black</a></li>
+   							<li class="nav-list__item"><a href="#" class="nav-list__link">Green</a></li>
+   							<li class="nav-list__item"><a href="#" class="nav-list__link">White</a></li>
+   							<li class="nav-list__item"><a href="#" class="nav-list__link">Oolong</a></li>
+   							<li class="nav-list__item"><a href="#" class="nav-list__link">Pu-erh</a></li>
+   						</ul>
+   					</li>
+   					<li class="moving-mobile-menu__line"></li>
+   					<li class="moving-mobile-menu__transition">
+   						<ul class="transition-list">
+   							<li class="transition-list__item"><a href="#" class="transition-list__link">Contact Us</a></li>
+   							<li class="transition-list__item"><a href="#" class="transition-list__link">Our Blog</a></li>
+   							<li class="transition-list__item"><a href="#" class="transition-list__link">Shipping and
+   									Delivery</a></li>
+   						</ul>
+   					</li>
+   					<li class="moving-mobile-menu__interaction">
+   						<ul class="interaction-list">
+   							<li class="interaction-list__item interaction-list__item_shopping-basket"><a href="" class="interaction-list__link interaction-list__link_shopping-basket"><svg>
+   										<use xlink:href="./assets/images/sprite.svg#icon-shopping-basket"></use>
+   									</svg></li>
+   							<li class="interaction-list__item interaction-list__item_profile"><a href="" class="interaction-list__link interaction-list__link_profile"><svg>
+   										<use xlink:href="./assets/images/sprite.svg#icon-profile"></use>
+   									</svg></li>
+   							<li class="interaction-list__item interaction-list__item_search"><a href="" class="interaction-list__link interaction-list__link_search"><svg>
+   										<use xlink:href="./assets/images/sprite.svg#icon-search"></use>
+   									</svg></li>
+   						</ul>
+   					</li>
+   				</ul>
+   			</nav>
+   			<div class="header__interaction interaction">
+   				<ul class="interaction__list">
+   					<li class="interaction__item interaction__item_shopping-basket anim"><a href="#" class="interaction__link interaction__link_shopping-basket"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#icon-shopping-basket"></use>
+   							</svg></a></li>
+   					<li class="interaction__item interaction__item_profile anim"><a href="#" class="interaction__link interaction__link_profile"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#icon-profile"></use>
+   							</svg></a></li>
+   					<li class="interaction__item interaction__item_search anim"><a href="#" class="interaction__link interaction__link_search"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#icon-search"></use>
+   							</svg></a></li>
+   				</ul>
+   			</div>
+   		</div>
+   	</div>
+   
+   	<main class="main">
+   		<section class="top">
+   			<div class="container">
+   				<div class="top__inner">
+   					<h1 class="top__title anim">A cup of tea is a moment of calm in the chaos of life</h1>
+   					<div class="top__text anim">Wide selection of high-quality teas from all over the world, carefully
+   						curated by
+   						tea experts.</div>
+   				</div>
+   			</div>
+   		</section>
+   		<section class="quote">
+   			<div class="container">
+   				<div class="quote__text anim">
+   					"Tea is not just a drink, it's a way of life and a way to connect with our loved ones."
+   				</div>
+   			</div>
+   		</section>
+   		<section class="tea-collections">
+   			<div class="container">
+   				<div class="tea-collections__title anim">Explore our Collections</div>
+   				<div class="tea-collections__row" id="collections">
+   					<div class="tea-collections__columns anim">
+   						<img src="assets/images/tea-black.png" alt="" class="tea-collections__img"></img>
+   						<div class="tea-collections__sort-name">Black</div>
+   					</div>
+   					<div class="tea-collections__columns anim">
+   						<img src="assets/images/tea-green.png" alt="" class="tea-collections__img"></img>
+   						<div class="tea-collections__sort-name">Green</div>
+   					</div>
+   					<div class="tea-collections__columns anim">
+   						<img src="assets/images/tea-white.png" alt="" class="tea-collections__img"></img>
+   						<div class="tea-collections__sort-name">White</div>
+   					</div>
+   					<div class="tea-collections__columns_white-break"></div>
+   					<div class="tea-collections__columns anim">
+   						<img src="assets/images/tea-Oolong.png" alt="" class="tea-collections__img"></img>
+   						<div class="tea-collections__sort-name">Oolong</div>
+   					</div>
+   					<div class="tea-collections__columns anim">
+   						<img src="assets/images/tea-pu-erh.png" alt="" class="tea-collections__img"></img>
+   						<div class="tea-collections__sort-name">Pu-erh</div>
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   		<section class="reviews">
+   			<div class="container">
+   				<div class="reviews__title anim">What our Clients say</div>
+   				<div class="reviews__row">
+   					<div class="reviews__columns">
+   						<div class="reviews__text anim">"As a tea enthusiast, I have tried teas from all over the world, but
+   							this
+   							tea store truly stands out. Their teas are of the highest quality and the variety is impressive.
+   							This is definitely a tea store that every tea lover should visit."</div>
+   						<div class="reviews__name anim">Alice</div>
+   					</div>
+   					<div class="reviews__columns">
+   						<div class="reviews__text anim">"This tea store is my go-to for all my tea needs. Their selection is
+   							unbeatable and the quality of their teas is exceptional."</div>
+   						<div class="reviews__name anim">Mad-Hatter</div>
+   					</div>
+   					<div class="reviews__columns">
+   						<div class="reviews__text anim">"If you're a tea lover, you must visit this tea store. The selection
+   							is
+   							vast and the quality is outstanding. I guarantee you won't be disappointed."</div>
+   						<div class="reviews__name anim">Dormouse</div>
+   					</div>
+   					<div class="reviews__columns">
+   						<div class="reviews__text anim">"I am not a big tea drinker, but this tea store has converted me. I
+   							highly
+   							recommend this tea store to anyone looking for a high-quality tea experience."</div>
+   						<div class="reviews__name anim">March Hare</div>
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   		<section class="blog-tea">
+   			<div class="container">
+   				<div class="blog-tea__title anim">Our Tea Blog</div>
+   				<div class="blog-tea__row">
+   					<div class="blog-tea__columns anim">
+   						<img src="assets/images/tea-blog-table.png" alt="" class="blog-tea__img">
+   						<div class="blog-tea__body">
+   							<div class="blog-tea__name-book">Tea Time Travels: Funny Moments from Around the World</div>
+   							<div class="blog-tea__name-author">by Robinson Crusoe</div>
+   							<a href="" class="blog-tea__link">Read <svg>
+   									<use xlink:href="./assets/images/sprite.svg#icon-more"></use>
+   								</svg></a>
+   						</div>
+   					</div>
+   					<div class="blog-tea__columns anim">
+   						<img src="assets/images/tea-blog-human.png" alt="" class="blog-tea__img">
+   						<div class="blog-tea__body">
+   							<div class="blog-tea__name-book">The Role of Tea in Mental Health</div>
+   							<div class="blog-tea__name-author">by Joker</div>
+   							<a href="" class="blog-tea__link">Read <svg>
+   									<use xlink:href="./assets/images/sprite.svg#icon-more"></use>
+   								</svg></a>
+   						</div>
+   					</div>
+   					<div class="blog-tea__columns anim">
+   						<img src="assets/images/tea-blog-book.png" alt="" class="blog-tea__img">
+   						<div class="blog-tea__body">
+   							<div class="blog-tea__name-book">Tea-rific Tales: Hilarious Stories from Tea Lovers</div>
+   							<div class="blog-tea__name-author">by Casper the Friendly Ghost</div>
+   							<a href="" class="blog-tea__link">Read <svg>
+   									<use xlink:href="./assets/images/sprite.svg#icon-more"></use>
+   								</svg></a>
+   						</div>
+   					</div>
+   					<div class="blog-tea__columns anim">
+   						<img src="assets/images/tea-blog-kettle.png" alt="" class="blog-tea__img">
+   						<div class="blog-tea__body">
+   							<div class="blog-tea__name-book">Tea and Caffeine: Effects on the Brain and Behavior</div>
+   							<div class="blog-tea__name-author">by Author Authorius</div>
+   							<a href="" class="blog-tea__link">Read <svg>
+   									<use xlink:href="./assets/images/sprite.svg#icon-more"></use>
+   								</svg></a>
+   						</div>
+   					</div>
+   				</div>
+   				<a href="" class="blog-tea__link-all anim">View all</a>
+   			</div>
+   		</section>
+   		<section class="join">
+   			<div class="container">
+   				<div class="join__title anim">Want to know more?</div>
+   				<div class="join__row">
+   					<div class="join__columns">
+   						<div class="join__text anim">Join our mailing list and stay up-to-date with the latest news,
+   							promotions,
+   							and exclusive offers from our tea store. Be the first to know about new tea arrivals, seasonal
+   							blends, and special discounts. Don't miss out on the tea-rrific perks - sign up today!</div>
+   					</div>
+   					<div class="join__columns">
+   						<form class="join__form" name="joinForm" action="#" method="get">
+   							<div class="join__inner"><input class="join__email anim" name="joinInput" type="email" placeholder="name@email.com"><button class="join__btn anim" type="submit">Join</button></div>
+   							<label class="join__label" for="consent">
+   								<input class="join__checkbox checkbox anim" type="checkbox" id="consent">
+   								<span class="checkbox-style anim"><svg>
+   										<use class="" xlink:href="./assets/images/sprite.svg#icon-check"></use>
+   									</svg></span>
+   								<div class="join__consent-text anim">We take your privacy seriously and are committed to
+   									protecting
+   									your personal information. By subscribing to our mailing list, you are consenting to receive
+   									periodic emails from us about our products, promotions, and other tea-related information.
+   								</div>
+   							</label>
+   						</form>
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   		<section class="prioritise">
+   			<div class="container">
+   				<div class="prioritise__title anim">We Prioritise</div>
+   				<div class="prioritise__row">
+   					<div class="prioritise__columns">
+   						<div class="prioritise__subtitle anim">Single garden teas</div>
+   						<div class="prioritise__text anim">Complete transparency</div>
+   						<div class="prioritise__icon anim"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#planet"></use>
+   							</svg></div>
+   					</div>
+   					<div class="prioritise__columns">
+   						<div class="prioritise__subtitle anim">Only Loose leaf tea</div>
+   						<div class="prioritise__text anim">Best Drinking Experience</div>
+   						<div class="prioritise__icon anim"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#petals"></use>
+   							</svg></div>
+   					</div>
+   					<div class="prioritise__columns">
+   						<div class="prioritise__subtitle anim">Customer support</div>
+   						<div class="prioritise__text anim">No bots, no automated replies</div>
+   						<div class="prioritise__icon anim"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#support"></use>
+   							</svg></div>
+   					</div>
+   					<div class="prioritise__columns">
+   						<div class="prioritise__subtitle anim">Fast shipping</div>
+   						<div class="prioritise__text anim">Save, Convenient, Reliable</div>
+   						<div class="prioritise__icon anim"><svg>
+   								<use xlink:href="./assets/images/sprite.svg#boxxx"></use>
+   							</svg></div>
+   					</div>
+   				</div>
+   			</div>
+   		</section>
+   	</main>
+   	<footer class="footer">
+   		<div class="container">
+   			<div class="footer__top">
+   				<div class="footer__row">
+   					<ul class="footer__products">
+   						<li class="footer__products-title anim">Products</li>
+   						<li class="footer__products-text anim">Black tea</li>
+   						<li class="footer__products-text anim">Green tea</li>
+   						<li class="footer__products-text anim">White tea</li>
+   						<li class="footer__products-text anim">Oolong tea</li>
+   						<li class="footer__products-text anim">Pu-erh tea</li>
+   					</ul>
+   					<ul class="footer__company">
+   						<li class="footer__company-title anim">Company</li>
+   						<li class="footer__company-item anim"><a href="" class="footer__company-link">About Us</a></li>
+   						<li class="footer__company-item anim"><a href="" class="footer__company-link">Contact Us</a></li>
+   						<li class="footer__company-item anim"><a href="" class="footer__company-link">Our Blog</a></li>
+   						<li class="footer__company-item anim"><a href="" class="footer__company-link">FAQ</a></li>
+   						<li class="footer__company-item anim"><a href="" class="footer__company-link">Shipping & Delivery</a>
+   						</li>
+   						<li class="footer__company-item anim"><a href="" class="footer__company-link">Refund policy</a></li>
+   						<li class="footer__company-itemt anim"><a href="" class="footer__company-link">Terms of Service</a>
+   						</li>
+   					</ul>
+   					<ul class="footer__quote">
+   						<li class="footer__quote-text anim">“Tea is a journey. It can take you to new places and open your
+   							mind to
+   							new experiences. Let every sip transport you to a world of wonder and possibility”</li>
+   						<li class="footer__quote-author anim">Dragomir Teodorescu, Tealuxe owner</li>
+   					</ul>
+   					<div class="footer__connection">
+   						<ul class="footer__connection-body">
+   							<li class="footer__connection-title anim">Stay In Touch</li>
+   							<li class="footer__connection-text anim">Please feel free to contact us via the email of phone. We
+   								would
+   								be happy to hear from you!</li>
+   						</ul>
+   						<div class="footer__connection-inner">
+   							<div class="footer__logo anim"><a href="" class="footer__logo-link"><svg>
+   										<use xlink:href="./assets/images/sprite.svg#logo"></use>
+   									</svg></a></div>
+   							<ul class="footer__contacts">
+   								<li class="footer__contacts-number anim"><a href="tel:+370680123456" class="footer__contacts-number-link anim">+370 680 123456</a></li>
+   								<li class="footer__contacts-email anim"><a href="mailto:info@tealuxe.com" class="footer__contacts-email-link anim">info@tealuxe.com</a></li>
+   							</ul>
+   							<ul class="footer__social anim">
+   								<li class="footer__social-item"><a href="" class="footer__social-link"><svg>
+   											<use xlink:href="./assets/images/sprite.svg#logo_facebook"></use>
+   										</svg></a></a></li>
+   								<li class="footer__social-item"><a href="" class="footer__social-link"><svg>
+   											<use xlink:href="./assets/images/sprite.svg#logo_yotube"></use>
+   										</svg></a></li>
+   								<li class="footer__social-item"><a href="" class="footer__social-link"><svg>
+   											<use xlink:href="./assets/images/sprite.svg#logo_instagram"></use></a></li>
+   								<li class="footer__social-item"><a href="" class="footer__social-link"><svg>
+   											<use xlink:href="./assets/images/sprite.svg#logo_twitter"></use>
+   										</svg></a></li>
+   							</ul>
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="footer__bottom">
+   				<div class="footer__bottom-row">
+   					<div class="footer__copyright anim">© Tealuxe, 2023</div>
+   					<ul class="logo-payment anim">
+   						<li class="logo-payment__item"><a href="" class="logo-payment__link"><svg>
+   									<use xlink:href="./assets/images/sprite.svg#logo_mastercard"></use>
+   								</svg></a></li>
+   						<li class="logo-payment__item"><a href="" class="logo-payment__link"><svg>
+   									<use xlink:href="./assets/images/sprite.svg#logo_visa"></use>
+   								</svg></a></li>
+   						<li class="logo-payment__item"><a href="" class="logo-payment__link"><svg>
+   									<use xlink:href="./assets/images/sprite.svg#logo_google-pay"></use>
+   								</svg></a></li>
+   						<li class="logo-payment__item"><a href="" class="logo-payment__link"><svg>
+   									<use xlink:href="./assets/images/sprite.svg#logo_paypal"></use>
+   								</svg></a></li>
+   					</ul>
+   				</div>
+   			</div>
+   		</div>
+   	</footer>
+   </div>
+</body>
+
+</html>
